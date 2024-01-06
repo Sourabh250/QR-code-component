@@ -1,5 +1,4 @@
-*::before,
-*::after {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,12 +13,12 @@ html,body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 250px;
+    width: 300px;
     border-radius: 20px;
     padding: 16px;
 }
